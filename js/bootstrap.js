@@ -5,19 +5,19 @@
  */
 
 
-const text = "BRINGING BRANDS TO HEARTS";
-const headingElement = document.getElementById('banner-header');
-let index = 0;
+// const text = "BRINGING BRANDS TO HEARTS";
+// const headingElement = document.getElementById('banner-header');
+// let index = 0;
   
-function typeWriter() {
-  if (index < text.length) {
-    headingElement.innerHTML += text.charAt(index);
-    index++;
-    setTimeout(typeWriter, 150); // Adjust speed here (150ms)
-  }
-}
+// function typeWriter() {
+//   if (index < text.length) {
+//     headingElement.innerHTML += text.charAt(index);
+//     index++;
+//     setTimeout(typeWriter, 150); // Adjust speed here (150ms)
+//   }
+// }
 
-typeWriter();
+// typeWriter();
 
 
 // Old starts

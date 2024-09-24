@@ -125,3 +125,17 @@
     max-width: 1170px;
   }
 }
+
+@media (max-width: 768px) {
+  .text-image-grid {
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+  }
+  .contact-inner {
+    display: block;
+  }
+  .contact-inner {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
