@@ -19,6 +19,41 @@
 
 // typeWriter();
 
+$(document).ready(function(){
+  $('.icon-carousel').slick({
+      slidesToShow: 5,        // Show 4 icons at a time
+      slidesToScroll: 1,      // Scroll by 1
+      autoplay: true,         // Enable autoplay
+      autoplaySpeed: 1000,    // Autoplay speed
+      arrows: true,           // Show next/prev arrows
+      dots: true,             // Show navigation dots
+      responsive: [
+          {
+              breakpoint: 1024,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true
+              }
+          },
+          {
+              breakpoint: 600,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1
+              }
+          }
+      ]
+  });
+});
 
 // Old starts
 
@@ -583,7 +618,7 @@
 
   var SWIPE_THRESHOLD = 40;
   var Default = {
-    interval: 5000,
+    interval: 2000,
     keyboard: true,
     slide: false,
     pause: 'hover',

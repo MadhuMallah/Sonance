@@ -134,8 +134,7 @@
     display: block;
   }
   .contact-inner {
-    display: flex;
-    justify-content: space-around;
+    display: block;
   }
 }
 

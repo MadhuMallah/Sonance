@@ -172,7 +172,7 @@ a:focus {
 
 .navbar-brand img {
   margin-right: 5px;
-  width: 35px;
+  width: 55px;
 }
 
 .navbar-brand span {
@@ -267,14 +267,10 @@ a:focus {
 
 .slider_section .detail_box h1 {
   text-transform: uppercase;
-  font-size: 50px;
-  /* font-family: "Protest Strike", sans-serif; */
-  font-family: "Noto Sans", sans-serif;
-  /* font-family: "Merriweather", serif; */
-  /* font-family: "Libre Baskerville", serif; */
-  /* font-family: "Belmein Extrude Right Demo"; */
+  font-size: 55px;
+  font-family:  "Protest Strike", sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: normal;
 }
 .banner-header {
   display: inline-block;
@@ -321,7 +317,10 @@ a:focus {
 }
 
 .slider_section .img_container .img-box img {
-  width: 75%;
+  width: 100%;
+  /* border: 3px solid #049ce3; */
+   border-radius: 10px;
+  
 }
 .img-box {
   text-align: center;
@@ -396,7 +395,7 @@ a:focus {
   -webkit-transition: all .1s;
   transition: all .1s;
   border: 2px solid #000;
-  background: #00d8ff4d;
+  background: #a5f1ff45;
 }
 
 .service_section .service_container .box .img-box {
@@ -1192,8 +1191,8 @@ background: linear-gradient(245deg, rgba(0,5,34,1) 38%, rgba(58,1,115,1) 65%);
   background-image: linear-gradient(
     245deg,
     rgba(153, 169, 255, 1) 20%,
-    rgba(252, 255, 0, 1) 48%,
-    rgba(178, 101, 255, 1) 75%
+    rgb(0 6 255) 48%,
+    rgb(118, 134, 252) 75%
   );
   background-size: 140%;
   animation: bg-animation 3s linear infinite;
@@ -1387,6 +1386,21 @@ text-align: center;
 .placement-images-container img {
   width: 70px;
   height: 65px;
+  margin: 10x;
+}
+
+
+.icon-carousel {
+  width: 100%;
+  margin: auto;
+}
+
+.icon-carousel img {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  margin: auto;
 }
 
 
