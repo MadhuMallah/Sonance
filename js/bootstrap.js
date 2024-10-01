@@ -21,8 +21,8 @@
 
 $(document).ready(function(){
   $('.icon-carousel').slick({
-      slidesToShow: 5,        // Show 4 icons at a time
-      slidesToScroll: 1,      // Scroll by 1
+      slidesToShow: 8,        // Show 4 icons at a time
+      slidesToScroll: 2,      // Scroll by 1
       autoplay: true,         // Enable autoplay
       autoplaySpeed: 1000,    // Autoplay speed
       arrows: true,           // Show next/prev arrows

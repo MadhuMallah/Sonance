@@ -81,13 +81,20 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* background-image: linear-gradient(79deg, #dff0fa, #ddeffaa6); */
-  /* background: linear-gradient(-45deg, #98d4ff, #7ec5ff, #23a6d5, #8afae0);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite; */
-  background-image: url("/images/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.header_section {
+   background-image: url("/images/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture.jpg");
+}
+.detail-box-banner {
+  background-image: url(/images/alexander-vilinskyy-6eG9zp1KQyY-unsplash.jpg);
+  width: 100%;
+  height: 400px;
+}
+
+.custom_nav-container  {
+  height: 72px;
 }
 
 
@@ -251,7 +258,7 @@ a:focus {
   position: relative;
   z-index: 2;
   color: #3b3a3a;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
 }
 
 .slider_section .row {
@@ -303,8 +310,8 @@ a:focus {
   margin-top: 35px;
 }
 
-.slider_section .detail_box a:hover {
-  background-color: #5625a1;
+.slider_section {
+  background-color: #e8f7fd;
 }
 
 .slider_section .img_container {
@@ -317,13 +324,11 @@ a:focus {
 }
 
 .slider_section .img_container .img-box img {
-  width: 100%;
-  /* border: 3px solid #049ce3; */
-   border-radius: 10px;
-  
+  width: 100%;  
 }
 .img-box {
   text-align: center;
+  /* height: 560px; */
 }
 
 .slider_section .carousel-control-prev,
@@ -484,13 +489,13 @@ a:focus {
 }
 
 .about_section .img_container .img-box.b1 {
-  width: 70%;
+  width: 100%;
 }
 
 .about_section .img_container .img-box.b2 {
-  width: 50%;
+  width: 60%;
   margin-left: auto;
-  margin-top: -12%;
+  margin-top: -17%;
 }
 
 .about_section .img_container .img-box img {
@@ -829,13 +834,13 @@ a:focus {
 
 .icon-box:nth-child(3) {
   top: 60%;
-  right: 0;
+  right: -15px;
   transform: translate(50%, -50%);
 }
 
 .icon-box:nth-child(4) {
   bottom: 2%;
-  right: 15%;
+  right: 20%;
   transform: translate(50%, 50%);
 }
 
@@ -847,7 +852,7 @@ a:focus {
 
 .icon-box:nth-child(6) {
   bottom: 40%;
-  left: 0;
+  left: -13px;
   transform: translate(-50%, 50%);
 }
 
@@ -1386,7 +1391,7 @@ text-align: center;
 .placement-images-container img {
   width: 70px;
   height: 65px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 
@@ -1396,12 +1401,60 @@ text-align: center;
 }
 
 .icon-carousel img {
-  width: 100px;
-  height: 100px;
-  /* border-radius: 50%; */
+  height: auto;
   object-fit: cover;
-  margin: auto;
+  margin: 10px;
+  padding: 10px;
+  max-width: 100%;
+  width: 129px;
 }
+
+
+
+/* ????????? */
+/* .banner-right {
+  background-image:url(/images/alexander-vilinskyy-6eG9zp1KQyY-unsplash.jpg) ;
+  object-fit: contain;
+  padding: 5rem;
+} */
+
+
+.banner-left {
+  padding: 0;
+}
+ 
+.detail_box {
+  position: relative; /* Allow positioning of child elements */
+}
+
+#banner-header {
+  position: absolute; /* Position the header absolutely */
+  top: 20px; /* Adjust this value to position vertically */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the text */
+  color: white; /* Change text color as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for better visibility */
+  z-index: 10; /* Ensure it sits above the image */
+}
+
+.img_container {
+  overflow: hidden; /* Hide overflow to maintain a clean look */
+}
+
+.carousel-inner {
+  position: relative; /* Allow for positioning within the carousel */
+}
+
+.carousel-item img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.banner-wrapper {
+  padding: 0;
+}
+
+
 
 
 
