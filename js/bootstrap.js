@@ -55,6 +55,42 @@ $(document).ready(function(){
   });
 });
 
+
+$(document).ready(function(){
+  $('.portfolio-carousel').slick({
+      slidesToShow: 1,        // Show 4 icons at a time
+      slidesToScroll: 1,      // Scroll by 1
+      autoplay: true,         // Enable autoplay
+      autoplaySpeed: 1000,    // Autoplay speed
+      arrows: true,           // Show next/prev arrows
+      dots: true,             // Show navigation dots
+      responsive: [
+          {
+              breakpoint: 1024,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true
+              }
+          },
+          {
+              breakpoint: 600,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+              }
+          },
+          {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+              }
+          }
+      ]
+  });
+});
 // Old starts
 
 

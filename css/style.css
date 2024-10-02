@@ -94,7 +94,7 @@ body {
 }
 
 .custom_nav-container  {
-  height: 72px;
+  height: 80px;
 }
 
 
@@ -493,9 +493,9 @@ a:focus {
 }
 
 .about_section .img_container .img-box.b2 {
-  width: 60%;
+  width: 100%;
   margin-left: auto;
-  margin-top: -17%;
+  /* margin-top: -17%; */
 }
 
 .about_section .img_container .img-box img {
