@@ -63,9 +63,9 @@
     flex-basis: 48%;
   }
 
-  .about_section .img_container .img-box.b2 {
+  /* .about_section .img_container .img-box.b2 {
     margin-top: -5%;
-  }
+  } */
 
 }
 
@@ -118,7 +118,7 @@
   }
 
   .about_section .img_container .img-box.b2 {
-    width: 55%;
+    width: 100%;
   }
 
   .info_section .info_form form {

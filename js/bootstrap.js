@@ -27,6 +27,7 @@ $(document).ready(function(){
       autoplaySpeed: 1000,    // Autoplay speed
       arrows: true,           // Show next/prev arrows
       dots: true,             // Show navigation dots
+      centerMode: false,
       responsive: [
           {
               breakpoint: 1024,

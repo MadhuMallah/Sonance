@@ -94,7 +94,7 @@ body {
 }
 
 .custom_nav-container  {
-  height: 80px;
+  height: 95px;
 }
 
 
@@ -179,12 +179,12 @@ a:focus {
 
 .navbar-brand img {
   margin-right: 5px;
-  width: 55px;
+  width: 65px;
 }
 
 .navbar-brand span {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 600;
   color: #049ce3;
 }
 
@@ -483,8 +483,6 @@ a:focus {
 }
 
 .about_section .img_container .img-box {
-  /* border: 5px solid #7b57b2;
-  border-radius: 100%; */
   overflow: hidden;
 }
 
@@ -494,8 +492,6 @@ a:focus {
 
 .about_section .img_container .img-box.b2 {
   width: 100%;
-  margin-left: auto;
-  /* margin-top: -17%; */
 }
 
 .about_section .img_container .img-box img {
@@ -818,6 +814,7 @@ a:focus {
 .icon-box img {
   width: 60px; /* Adjust size of icons */
 }
+
 
 /* Positioning each icon around the circle */
 .icon-box:nth-child(1) {
